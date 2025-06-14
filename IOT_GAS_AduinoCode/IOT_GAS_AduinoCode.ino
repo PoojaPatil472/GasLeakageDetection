@@ -50,19 +50,6 @@ void loop()
 
   request.write();
 
-   /*int value = LOW;
-  if(request.indexOf("/LED=ON") != -1)
-  {
-    digitalWrite(LED, LOW); // Turn LED ON
-    value = LOW;
-  }
-
-  if(request.indexOf("/LED=OFF") != -1)
-  {
-    digitalWrite(LED, HIGH); // Turn LED OFF
-    value = HIGH;
-  }*/
-
 //*------------------HTML Page Code---------------------*//
   client.println("HTTP/1.1 200 OK"); //
   client.println("Content-Type: text/html");
